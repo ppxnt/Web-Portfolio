@@ -1,0 +1,154 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chilla</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https:/fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Prompt:wght@400;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?&family=Prompt:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="logo-res">
+            <i class="fa-solid fa-bars"></i>
+            <a href="#"><img src="images/logo.png" alt="" id="logo_chilla-res"></a>
+        </div>
+        <div class="menu">
+            <div class="logo">
+                <i class="fa-solid fa-bars"></i>
+                <a href="#"><img src="images/logo.png" alt="" id="logo_chilla"></a>
+            </div>
+            <ul>
+               <a href="#" ><li><i class="fa-solid fa-house-chimney"></i>หน้าแรก</li></a>
+                <a href="#"><li><i class="fa-solid fa-compact-disc"></i>คลังเพลง</li></a>
+                <a href="#"><li><i class="fa-solid fa-heart"></i>กำลังติดตาม</li></a>
+            </ul>
+            <div class="menu-line"></div>
+            <ul>
+                <a href="#"><li><i class="fa-solid fa-circle"></i>ไลฟ์สด</li></a>
+                <a href="#"><li><i class="fa-solid fa-music"></i>เพลย์ลิสต์ยอดนิยม</li></a>
+                <a href="#"><li><i class="fa-solid fa-chart-line"></i>เพลงฮิต</li></a>
+                <a href="#"><li><i class="fa-solid fa-user"></i>ศิลปิน & นักดนตรี</li></a>
+                <a href="#"><li><i class="fa-solid fa-clapperboard"></i>เอ็มวี</li></a>
+            </ul>
+            <ul>
+                <div class="menu-line"></div>
+                <div class="menu-banner">
+                    <img src="images/banner.png">
+                </div>
+                <a href=""><li>คำถามที่พบบ่อย</li></a>
+                <a href="" ><li class="active">ติดต่อเรา</li></a>
+                <a href=""><li>ข้อเสนอแนะ</li></a>
+                <div class="social">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-twitter"></i></li>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <span>2022 CHILLA. All Right Reserved<span>
+            </ul>
+            <!-- <div class="menu-line"></div>   -->
+        </div>
+        <div class="container">
+            <div class="search-cover">
+                <div class="search">
+                    <h1><input type="text" name="search" placeholder="ค้นหานักร้อง นักดนตรี ศิลปิน"></h1>
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <i class="fas fa-search" id="search-icon"></i>
+                <i class="fa-solid fa-bell"></i>
+                <h1>โปรไฟล์</h1>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+        <div class="contact">
+            <h3>ติดต่อเรา</h3>
+            <span>เรามุ่งมั่นที่จะพัฒนาเพื่อสร้างสรรค์
+                ประสบการณ์การใช้งานที่ดียิ่งขึ้น 
+                คุณสามารถติดตามและส่งข้อเสนอแนะ
+                ให้กับทีมงานเพื่อร่วมกันปรับปรุงการทำงาน
+                ของ Chilla ขอขอบคุณทุกความคิดเห็น</span>
+            
+        </div>
+
+        <div class="sending">
+            <select id="topic" name="topic" >
+                <option value="" disabled selected>หัวข้อเรื่อง</option>
+                <option value="#">เล่นเพลงไม่ได้</option>
+                <option value="#">สมัครสมาชิกไม่ได้</option>
+                <option value="#">วิดีโอสะดุด</option>
+                <option value="#">มิวสิคเพลเยอร์ประสบปัญหา</option>
+            </select>
+            <select id="type" name="type">
+                <option value="" disabled selected>ประเภท</option>
+                <option value="#">เพลง</option>
+                <option value="#">สมาชิก</option>
+                <option value="#">ไลฟ์สด</option>
+                <option value="#">มิเดียเพลเยอร์</option>
+            </select>
+            <span>รายละเอียดเพิ่มเติม</span>
+            <input type="text" id="send" name="send" placeholder="รายละเอียดเพิ่มเติม(ถ้ามี)">
+            <input type="submit" id="submit" value="ส่ง" >
+        </div>
+
+        <div class="email">
+            <h2><i class="fa-solid fa-envelope"></i>อีเมลติดต่อ</h2>
+            <div class="detail-email">
+                <h3>support@chilla.co.th</h3>
+                <span>ขอเสนอแนะนำสำหรับ Chilla</span>
+                <h3>helpuser@chilla.co.th</h3>
+                <span>ต้องการความช่วยเหลือด้านการใช้งาน</span>
+                <h3 id="press">press@chilla.co.th</h3>
+                <span id="press2">ต้องการติดต่อด้านประชาสัมพันธ์ </span>
+                <h3 id="bd">bd@chilla.co.th</h3>
+                <span id="bd-span">ต้องการติดต่อทางธุรกิจ </span>
+            </div>
+        </div>
+
+        <div class="social-contact">
+            <h2><i class="fa-solid fa-earth-americas"></i>ช่องทางติดต่อ</h2>
+            <div class="social-type">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+
+        <div class="map">
+            <h2><i class="fa-solid fa-map-location-dot"></i>สถานที่ติดต่อ</h2>
+            <img src="images/map.png" alt=""><i class="fa-solid fa-location-dot"></i>
+            <span id="detail-map">คณะเทคโนโลยีสารสนเทศและการสื่อสาร
+                มหาวิทยาลัยศิลปากร
+                วิทยาเขตสารสนเทศเพชรบุรี
+                หมู่ 3 ตำบลสามพระยา
+                อำเภอชะอำ จังหวัดเพชรบุรี 76120  </span>
+            <span id="phone">โทรศัพท์/โทรสาร: 0 3 259 4033 </span>    
+        </div>
+            
+        </div><!-- content -->
+
+    </div><!-- Wrapper -->
+
+
+</body>
+
+</html>
