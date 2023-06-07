@@ -1,0 +1,1435 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 4100px;
+    margin: 0 auto;
+    background: linear-gradient(#4D277E,#130022);  
+}
+.menu{
+    width: 290px;
+    height: 1010px;
+    background: linear-gradient(#4D277E,#130022);
+    z-index: 200;
+    position: fixed;
+}
+#logo_chilla{
+    width: 70%;
+
+}
+.logo-res{
+    display: none;
+}
+.logo i{
+    padding-top: 40px;
+    padding-left: 20px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    float: left;
+}
+.logo a{
+    font-size: 32px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.menu ul{
+    margin-top: 20px;
+    list-style: none; 
+    color: white;
+    padding-left: 0px;
+    
+}
+.menu li{
+    padding: 8px 0;
+    padding-left:30px;
+    z-index: 2;
+}
+.menu li:hover{
+    background-color: white;
+    width: 290px;
+    opacity: 30%;
+    cursor: pointer;
+    z-index: 0;
+    position: relative;
+}
+.menu a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: white;
+}
+.menu-line{
+    width: 290px;
+    height: 2px;
+    background-color: white;
+    left: 0;
+}
+.menu-banner{
+    padding: 15px 0 20px 34px;
+}
+.menu-banner img{
+    width: 220px;
+    height: 70px;
+    border-radius: 12px;
+}
+.social{
+    padding-left: 55px;
+}
+.fa-brands{
+    font-size: 32px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.menu span{
+    font-family: 'Prompt', sans-serif;
+    font-size:16px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.container{
+    width: 100%;
+    height: 3580px;
+    /* margin-left: 290; */
+}
+.search-cover{
+    width: 60%;
+    height: 100px;
+    /* background-color: aqua; */
+    padding-top: 40px;
+    padding-left: 30px;
+    float: left;
+}   
+#search-icon{
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+
+/* .search{
+    margin-left: 0px;
+    padding-bottom: 10px;
+    width: 100%;
+	height: 50px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 7px;
+	display: flex;
+	align-items: center;
+    float: left;
+	
+}
+.search input{
+    flex: 1;
+    width: 100%;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 30px;
+    float: left;
+}
+.search i{
+    font-size: 22px;
+	color:#6E00FF;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.search h1{
+    font-family: 'Prompt', sans-serif;;
+    font-size: 16px;
+    color: #5B1DAA;
+    opacity: 50%;
+} */
+
+.search{
+    margin-left: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    margin-top: 0px;
+    flex: 1;
+    width: 370px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.search i{
+    font-size: 22px;
+    color:#ffffff;
+    padding-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    padding-left: 330px
+}
+.search .fa-bars{
+    display: none;
+}
+.search h1{
+    font-family: 'Prompt', sans-serif;;
+    font-size: 16px;
+    color: #5B1DAA;
+    opacity: 50%;
+}
+.profile{
+    float: left;
+    color: white;
+    padding-top: 53px;
+    
+    
+}
+.profile h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 26px;
+    float: left;
+    text-align: center;
+    padding-left: 40px;
+    margin: 0 0 0;
+}
+.profile i{
+    font-size: 26px;
+    float: left;
+}
+.profile .fa-bell{
+    padding-top: 0px;
+    padding-left: 40px;
+}
+.profile .fa-user{
+    padding-left: 40px;
+}
+.profile .fa-chevron-down{
+    padding-left: 40px;
+    cursor: pointer;
+}
+.live img{
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 26px;
+    border: none;
+    box-shadow: 0 3px 6px black;
+    z-index: 5;
+    background-color: white;
+    position: relative;
+
+}
+.live button{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    background: red;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 6px 6px black;
+    cursor: pointer;
+    margin-top: -100px;
+    margin-left: 750px;
+}
+.live button i{
+    float: left;
+    font-size: 21px;
+    padding-left: 15px;
+    color: white;
+    padding-top: 3px;
+    padding-right: 0;
+}
+.live button:hover h2{
+    transition: 1s;
+    color: #6E00FF;
+}
+.live button:hover i{
+    transition: 1s;
+    color: #6E00FF;
+}
+.live button:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: red;
+}
+.live h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    color: white;
+    position: absolute;
+    padding-left: 42px;
+    
+}
+.live h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 42px;
+    margin-top: 250px;
+    font-weight: bold;
+    z-index: 10;
+    margin-left: 80px;
+    position: absolute;
+    color: white;
+}
+.live span{
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    margin-top: 310px;
+    margin-left: 80px;
+    font-weight: lighter;
+    z-index: 10;
+    position: absolute;
+    color: white;
+}
+.live-overlay span{
+    font-weight: lighter;
+    z-index: 10;
+    position: absolute;
+    color: white;
+}
+.live h3{
+    width: 77px;
+    height: 26px;
+    z-index: 10;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-family: 'Prompt', sans-serif;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.playlist{
+    background-color: #2B005E;
+    width: 100%;
+    height:420px;
+    margin-top: 50px;
+}
+.playlist h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 42px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* background-color: black; */
+}
+/* Slideshow container */
+.thumb{
+    box-shadow: 0 6px 0px rgba(0, 0, 0, 0.075);
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+/* .thumb-img{
+    padding: 10px;
+} */
+.fluid-img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.thumb-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    text-align: right;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    padding-top: 20%;
+    font-weight: lighter;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.col-sm-4:hover .thumb-overlay{
+    opacity: 0.8   ;
+}
+.thumb-overlay a:hover{
+    color: #ffffff;
+}
+.thumb-overlay i{
+    width: 100%;
+    margin-top: 20px;
+}
+.icon-thumb{
+    color: white;
+    font-size: 32px;
+    /* margin-right: 15px; */
+    margin: 0 5px;
+}
+.thumb-text{
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 80px;
+    padding-right: 20px;
+}
+.fa-play{
+    font-size: 60px;
+    padding-right: 120px;
+    padding-top: 30px;
+}
+.chart-hit{
+    width: 100%;
+    height: 900px ;
+    background-color: #0F001A;
+}
+.chart-music{
+    height: 80px;
+    /* background-color: #4e4e4e; */
+    width: 100%;
+}
+.chart-hit h1{
+    margin-top: 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 42px;
+    color: white;
+    padding: 20px;
+    /* background-color: #29FF00; */
+}
+.chart-hit h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    color: white;
+    float: left;
+    padding-left: 20px;
+    padding-top: 6px;
+    position: absolute;
+    /* background-color: #00c3ff; */
+
+}
+.name-song h3{
+    width: 20%;
+    height: 40px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-top: 7px;
+    padding-left: 140px;
+    margin-bottom:40px;
+    float: left;
+    position: absolute;
+
+}
+.artist{
+    margin-left: 330px;
+}
+.artist h3{
+    width: 15%;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    margin-top :-2px ;
+}
+.artist2 h3{
+    width: 15%;
+    height: 100px;
+    position: absolute;
+    margin-top :0 ;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: -20px;
+}
+.chart-hit img{
+    width: 69px;
+    height: 69px;
+    border-radius: 20px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 5px;
+}
+.chart-hit p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 15px;
+    height: 20px;
+}
+.option-hit span{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: 490px;
+}
+.fa-headphones{
+    width: 10%;
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    margin-left: 450px;
+}
+.chart-hit h3{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.line-hit{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-top: 51px;
+}
+.rank-up{
+    width: 15px;
+    height: 35px;
+    margin-left: 150px;
+
+}
+.option-hit{
+    margin-top: -7px;
+}
+.option-hit i{
+    font-size: 27px;
+    margin-top: -2px;
+    float: left;
+    /* position: absolute; */
+}
+.fa-star{
+    margin-left: 650px;
+    color: #6E00FF;
+    /* background-color: #18b5ce; */
+}
+.fa-star:hover{
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.fa-cloud-arrow-down{
+    color: #6E00FF;
+    padding-left: 25px;
+}
+.fa-cloud-arrow-down:hover{
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.fa-ellipsis{
+    color: #6E00FF;
+    padding-left: 25px;
+}
+
+.fa-ellipsis:hover{
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.rank-up p{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.rank-up .fa-caret-up{
+    font-size: 27px;
+    color: #29FF00;
+    float: left;
+    position: absolute; 
+    margin-top: 49px;
+    margin-right: 57px;
+}
+
+.fa-caret-down{
+    font-size: 27px;
+    color: #ff0000;
+    float: left;
+    position: absolute; 
+    margin-top: 45px;
+    margin-right: 57px;
+}
+.btn-1{
+    margin-top: 20px;
+    margin-left: 380px;
+}
+
+.btn-1 button{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 16px;
+    box-shadow: 0 6px 6px black;
+    border: none;
+}
+.btn-1 button:hover h1{
+    transition: 1s;
+    background-color: white;
+    color: #6E00FF;
+}
+.btn-1 button:hover i{
+    transition: 1s;
+    background-color: white;
+    color: #6E00FF;
+}
+.btn-1 button:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: red;
+}
+.btn-1 h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+    padding:0px
+}
+
+.btn-1 i{
+    font-size: 28px;
+    color: white;
+    padding-top: 10px;
+}
+
+.brand{
+    width: 100%;
+    height: 400px;
+    /* padding-left: 20px; */
+    background: linear-gradient(#4D277E,#130022);
+}
+.brand h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 42px;
+    color: white;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.card-deck{
+    width: 240px;
+    min-height: 250px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    background-color: #6922C6;
+    border-radius: 22px;
+}
+.card-deck img:hover{
+    transform:scale(1.01);
+    transition: 0.35s;
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+.artist-overlay{
+    z-index: 30;
+    height: 30px;
+    position: absolute;
+    margin-top: -150px;
+    border: none;
+    /* background-color: #1EB900; */
+}
+.artist-overlay button{
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 1px 0 black;
+    border: none;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -20px;
+}
+.artist-overlay button:hover{
+    transition: 0.5s;
+    background-color: #000000;
+    color: white;
+}
+
+.artist-overlay h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    color: #6922C6;
+    margin-top: 6px;
+    padding: 0;
+}
+.artist-overlay i{
+    font-size: 16px;
+    color: #6922C6;
+    float: left;
+    padding-top: 6px;
+    margin-left: 5px;
+}
+.card-img-top{
+    width: 240px;
+    height: 180px;
+    border-radius: 22px;
+    z-index: 15;
+    /* position: absolute; */
+}
+.card-body{
+    /* background-color: #6922C6; */
+    border-radius: 22px;
+    height: 70px;
+    position: absolute;
+    width: 240px;
+    margin-top: 0px;
+    z-index: 10;
+
+}
+.brand h5{
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left:10px;
+    padding-top: 0px;
+}
+.brand p{
+    width: 100%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: lighter;
+    padding-left:10px
+}
+#content-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid black;
+
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active{
+	opacity: 1;
+}
+
+#slide-wrapper{
+	max-width: 990px;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+    /* background-color: #227900; */
+}
+
+#slider{
+	width: 990px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+    /* background-color: #dede2e; */
+
+}
+
+.arrow{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+    z-index: 50px;
+    position: relative;
+}
+
+.arrow:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}
+.mv{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#4D277E,#130022);
+}
+.mv h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 42px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+}
+.mv img{
+    width: 280px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: black;
+}
+.card-mv{
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    
+}
+.card-mv img:hover{
+    transform:scale(1.03);
+    transition: 0.35s;
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.9;
+}
+.card-body-mv h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    margin-top: 10px;
+}
+.card-body-mv p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+}
+.btn-2{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.btn-2 i{
+    font-size: 28px;
+    color: white;
+    padding-top: 10px;
+}
+
+.btn-2 button{
+    width: 230px;
+    height: 60px;
+    background-color: #1EB900;
+    border-radius: 16px;
+    box-shadow: 0 6px 6px black;
+    border: none;
+    float: right;
+}
+.btn-2 button:hover h1{
+    transition: 1s;
+    background-color: white;
+    color: #6E00FF;
+}
+.btn-2 button:hover i{
+    transition: 1s;
+    background-color: white;
+    color: #6E00FF;
+}
+.btn-2 button:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: #1EB900;
+}
+.btn-2 h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+    padding:0px
+}
+
+.btn-2 i{
+    font-size: 28px;
+    color: white;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:768px){
+    .menu{
+        display: none;
+    }
+    .search-cover{
+        display: none;
+    }
+    #slide-wrapper{
+        max-width: 768px;
+        display: flex;
+        min-height: 100px;
+        align-items: center;
+        /* background-color: #227900; */
+    }
+    
+    #slider{
+        width: 768px;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: hidden;
+        /* background-color: #dede2e; */
+    
+    }
+    .profile{
+        display: none;
+        width: 50%;
+        float: right;
+        margin-left: 0px;
+    }
+    .profile h1{
+        font-family: 'Prompt', sans-serif;
+        font-size: 20px;
+        float: left;
+        text-align: center;
+        padding-left: 20px;
+        margin: 0 0 0;
+        display: none;
+    }
+    #search-icon{
+        display: block;
+    }
+    .profile i{
+        font-size: 20px;
+        float: left;
+    }
+    .profile .fa-bell{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .profile .fa-user{
+        padding-left: 0px;
+    }
+    .profile .fa-chevron-down{
+        padding-left: 0px;
+        cursor: pointer;
+    }.live button{
+        margin-left: 150px;
+    }
+    .playlist{
+        height: 350px;
+    }
+    .mv img{
+        width: 100%;
+        height: auto;
+    }
+    .card-mv{
+        margin-right: 50px;
+    }
+    .wrapper{
+        height: 6000px;
+    }
+    .btn-2{
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+    .menu{
+        display: none;
+    }
+    .mv{
+        height: auto;
+    }
+    
+    .logo-res{
+        display: block;
+        width: 33%;
+        position: absolute;
+    }
+    .logo-res i{
+        color: white;
+        font-size: 22px;
+        margin-left: 40px;
+        padding-top: 52px;
+    }
+    #logo_chilla-res{
+        width: 70%;
+        margin-top: -10px;
+    }
+    .profile{
+        display: block;
+        float: right;
+        /* margin-right: 20px; */
+        padding-left: 100px;
+    }
+    .search-cover{
+        width: 50%;
+    }
+    .profile h1{
+        font-family: 'Prompt', sans-serif;
+        font-size: 20px;
+        float: left;
+        text-align: center;
+        padding-left: 40px;
+        margin: 0 0 0;
+    }
+    .profile i{
+        font-size: 22px;
+        float: left;
+    }
+    .profile .fa-bell{
+        padding-top: 0px;
+        padding-left: 70px;
+    }
+    .profile .fa-user{
+        padding-left: 40px;
+    }
+    .profile .fa-chevron-down{
+        padding-left: 40px;
+        cursor: pointer;
+    }
+    .live button{
+        margin-left: 550px;
+    }
+    .chart-hit{
+        width: 100%;
+        height: 900px ;
+        background-color: #0F001A;
+    }
+    .chart-music{
+        height: 80px;
+        /* background-color: #4e4e4e; */
+        width: 100%;
+    }
+    .chart-hit h1{
+        margin-top: 0;
+        font-family: 'Prompt', sans-serif;
+        font-size: 42px;
+        color: white;
+        padding: 20px;
+        /* background-color: #29FF00; */
+    }
+    .chart-hit h2{
+        font-family: 'Prompt', sans-serif;
+        font-size: 24px;
+        color: white;
+        float: left;
+        padding-left: 20px;
+        padding-top: 6px;
+        position: absolute;
+        /* background-color: #00c3ff; */
+    
+    }
+    .name-song h3{
+        width: 100%;
+        height: 40px;
+        font-family: 'Prompt', sans-serif;
+        font-size: 20px;
+        color: white;
+        margin-top: 7px;
+        padding-left: 140px;
+        margin-bottom:40px;
+        float: left;
+        position: absolute;
+    
+    }
+    .artist{
+        margin-left: 220px;
+    }
+    .artist h3{
+        width: 25%;
+        height: auto;
+        font-size: 12px;
+        position: absolute;
+        text-align: center;
+    }
+    .artist2 h3{
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        text-align: center;
+    }
+    .chart-hit img{
+        width: 69px;
+        height: 69px;
+        border-radius: 20px;
+        margin-left: 50px;
+        float: left;
+        margin-top: 5px;
+    }
+    .chart-hit p{
+        font-family: 'Prompt', sans-serif;
+        font-size: 20px;
+        color: white;
+        width: 15px;
+        height: 20px;
+    }
+    .option-hit span{
+        font-family: 'Prompt', sans-serif;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+        position: absolute;
+        margin-left: 350px;
+    }
+    .fa-headphones{
+        color: white;
+        font-size: 28px;
+        position: absolute;
+        margin-left: 310px;
+    }
+    .chart-hit h3{
+        font-family: 'Prompt', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    .line-hit{
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        margin-top: 51px;
+    }
+    .rank-up{
+        width: 15px;
+        height: 35px;
+        margin-left: 150px;
+    
+    }
+    .option-hit{
+        margin-top: -7px;
+    }
+    .option-hit i{
+        font-size: 27px;
+        margin-top: -2px;
+        float: left;
+        /* position: absolute; */
+    }
+    .fa-star{
+        margin-left: 480px;
+        color: #0F001A;
+        display: none;
+    }
+    .fa-star:hover{
+        display: none;
+    }
+    .fa-cloud-arrow-down{
+        color: #0F001A;
+    }
+    .fa-cloud-arrow-down:hover{
+        display: none;
+    }
+    .fa-ellipsis{
+        color: #6E00FF;
+        padding-left: 0px;
+        z-index: 10;
+        position: absolute;
+        right: 100;
+    }
+    .rank-up p{
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+    .rank-up .fa-caret-up{
+        font-size: 27px;
+        color: #29FF00;
+        float: left;
+        position: absolute; 
+        margin-top: 49px;
+        margin-right: 57px;
+    }
+    
+    .fa-caret-down{
+        font-size: 27px;
+        color: #ff0000;
+        float: left;
+        position: absolute; 
+        margin-top: 45px;
+        margin-right: 57px;
+    }
+    .btn-1{
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    
+    .btn-1 button{
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        border-radius: 16px;
+        box-shadow: 0 6px 6px black;
+        border: none;
+    }
+    .btn-1 button:hover h1{
+        transition: 1s;
+        background-color: white;
+        color: #6E00FF;
+    }
+    .btn-1 button:hover i{
+        transition: 1s;
+        background-color: white;
+        color: #6E00FF;
+    }
+    .btn-1 button:hover{
+        transition: 0.3s;
+        background-color: white;
+        color: red;
+    }
+    .btn-1 h1{
+        font-family: 'Prompt', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 20px;
+        color: white;
+        float: left;
+        padding:0px
+    }
+    .btn-1 i{
+        font-size: 28px;
+        color: white;
+        padding-top: 10px;
+    }
+    .mv{
+        height: 3750px;
+    }
+    .card-mv{
+        margin-left: 50px;
+    }
+    .btn-2{
+        margin-left: 190px;
+        margin-top: -10px;
+    }
+    
+    
+    @media screen and (max-width:450px){
+        .logo-res{
+            display: block;
+            width: 40%;
+            position: absolute;
+        }
+        
+        .live h1{
+            font-family: 'Prompt', sans-serif;
+            font-size: 42px;
+            margin-top: 200px;
+            font-weight: bold;
+            z-index: 10;
+            margin-left: 30px;
+            position: absolute;
+            color: white;
+        }
+        .live span{
+            font-family: 'Prompt', sans-serif;
+            font-size: 18px;
+            margin-top: 300px;
+            margin-left: 30px;
+            font-weight: lighter;
+            z-index: 10;
+            position: absolute;
+            color: white;
+        }
+        .live-overlay span{
+            font-weight: lighter;
+            z-index: 10;
+            position: absolute;
+            color: white;
+        }
+        .live h3{
+            width: 77px;
+            height: 26px;
+            z-index: 10;
+            position: absolute;
+            color: white;
+            background-color: red;
+            font-family: 'Prompt', sans-serif;
+            font-size: 17px;
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .thumb-text{
+            font-family: 'Prompt', sans-serif;
+            font-size: 18px;
+            color: white;
+            padding-top: 80px;
+            padding-left: 10px;
+        }
+        .fa-play{
+            font-size: 60px;
+            padding-right: 140px;
+            padding-top: 40px;
+        }
+        .logo-res i{
+            color: white;
+            font-size: 20px;
+            margin-left: 20px;
+            padding-top: 52px;
+            float: left;
+        }
+        #logo_chilla-res{
+            width: 60%;
+            margin-top: 32px;
+            margin-left: 2px;
+        }
+        .playlist{
+            height: auto;
+            padding-bottom: 20px;
+        }
+        .search .fa-bars{
+            display: block;
+        }
+        .profile{
+            width: 70%;
+        }
+        .profile i{
+            width: 10%;
+            font-size: 18px;
+            padding-left: 30px;
+
+        }
+        #search-icon{
+            font-size: 18px;
+            
+        }
+        #slide-wrapper{
+            max-width: 400px;
+            display: flex;
+            min-height: 100px;
+            align-items: center;
+            /* background-color: #227900; */
+        }
+        
+        #slider{
+            width: 400px;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: hidden;
+            /* background-color: #dede2e; */
+        
+        }
+        .profile .fa-bell{
+            padding-top: 0px;
+            padding-left: 40px;
+        }
+        .profile .fa-user{
+            padding-left: 40px;
+        }
+        .profile .fa-chevron-down{
+            padding-left: 40px;
+            cursor: pointer;
+        }
+        .name-song h3{
+            font-size: 18px;
+        }
+        .artist h3{
+            display: block;
+            width: 30%;
+            font-size: 15px;
+        }
+        .rank-up .fa-caret-up{
+            display: block;
+        }
+        .rank-up .fa-caret-down{
+            display: block;
+        }
+        .chart-hit img{
+            margin-left: 50px;
+        }
+        .option-hit .fa-ellipsis{
+            display: block;
+            right: 30;
+        }
+        .btn-1 .fa-circle-down{
+            display: block;
+        }
+        .chart-hit i{
+            display: none;
+        }
+        .chart-hit{
+            height: 960px;
+        }
+        .btn-1{
+            margin-left: 100px;
+        }
+        .btn-2{
+            margin-left: 30px;
+            padding-left: 15px;
+        }
+        .mv{
+            height: 2500px;
+        }
+        .wrapper{
+            height: 5550px;
+        }
+        .live h1{
+            margin-top: 150px;
+            font-size: 24px;
+        }
+        .live span{
+            margin-top: 180px;
+            font-size: 15px;
+        }
+        .btn-2{
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+        .brand h1{
+            font-size: 32px;
+            text-align: center;
+            padding-right: 20px;
+        }
+        .mv h1{
+            font-size: 32px;
+            text-align: center;
+            padding-right: 20px;
+        }
+        .chart-hit h1{
+            font-size: 32px;
+            text-align: center;
+            padding-right: 20px;
+        }
+        .playlist h1{
+            font-size: 32px;
+            text-align: center;
+            padding-right: 20px;
+        }
+        .btn-2 h1{
+            font-size: 24px;
+        }
+        .btn-2 i{
+            padding-right: 9px;
+        }
+        .btn-1 h1{
+            font-size: 24px;
+        }
+        .btn-1 i{
+            width: fit-content;
+            float: right;
+            margin-right: 20px;
+        }
+        .artist-overlay h1{
+            font-size: 18px;
+            position: absolute;
+            margin-left: 28px;
+            margin-top: 0px;
+        }
+        .artist-overlay i{
+            margin-left: 8px;
+            margin-top: -3px;
+            float: left;
+            width: fit-content;
+        }
+        .mv img{
+            margin-left: -50px;
+            margin-right: 0px;
+            width: 360px;
+        }
+
+    }
+}
