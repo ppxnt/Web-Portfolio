@@ -89,13 +89,14 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
 
 //jquery zoom
 
+
 (function ($) {
 	var defaults = {
 		url: false,
 		callback: false,
 		target: false,
 		duration: 120,
-		on: 'click', // other options: grab, click, toggle, mouseover
+		on: 'mouseover', // other options: grab, click, toggle, mouseover
 		touch: true, // enables a touch fallback
 		onZoomIn: false,
 		onZoomOut: false,
